@@ -1,0 +1,30 @@
+.list{
+    width: 300px;
+    margin: 0 auto 1rem auto;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    justify-content: space-between;
+    >h3{
+        padding: 0.6rem ;
+        margin: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    >button{
+        // margin: 0.2rem;
+        background-color: lightcoral;
+        height:auto;
+        width: 35px;
+        font-size: 2rem; 
+        color: white;
+        border: none;
+        border-radius:0 1rem 1rem 0 ;
+         &:hover{
+            cursor: pointer;
+            background-color:  red;
+         }
+    }
+}

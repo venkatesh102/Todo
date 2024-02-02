@@ -1,0 +1,21 @@
+form{
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    >input{
+        padding: 0.5rem;
+        font-size: large;
+    }
+    >.first{
+        flex:2;
+        width: 10rem;
+    }
+    >.second{
+        background-color: green; 
+        &:hover{
+            cursor: pointer;
+            background-color: darkgreen;
+        }
+    }
+}
